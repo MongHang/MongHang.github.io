@@ -5,6 +5,7 @@ p,a,span,li,label{
 	font-family: 'Open Sans', sans-serif;
 }
 img{
+	/* max-width: 100%; */
 	max-width:512px;
 }
 nav li{
