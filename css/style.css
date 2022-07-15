@@ -5,14 +5,13 @@ p,a,span,li,label{
 	font-family: 'Open Sans', sans-serif;
 }
 img{
-	/* max-width: 100%; */
-	max-width:512px;
+	max-width:100%;
 }
 nav li{
 	    margin: 0 13px;
 }
 #intro .jumbotron{
-	background: url('../picturesT/mainbg.png');
+	background: url('../pictures/mainbg.png');
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
