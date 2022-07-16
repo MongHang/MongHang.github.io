@@ -27,19 +27,19 @@ nav li{
 #intro .btn{
 	margin-top: 20px;
 }
-.btn{
-    background-color: #f05f5c;
+.btn{ /*按鈕顏色*/
+    background-color: #070e53;
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
 }
-.btn:hover{
+.btn:hover{ /*鼠標在按鈕上的顏色*/
 	opacity:0.8;
-	background-color: #f05f5c!important;
+	background-color: #00756f!important;
 }
 #second{
 	padding: 80px 0px;
-	/*background: url(); 可增加id=second部分背景圖片*/
+	/*background: url(); 可改id=second部分 背景圖片*/
 	background: rgb(248, 248, 248)/*背景顏色*/
 }
 #second h3, #latest h3{
