@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--畫面大小適用不同裝置(RWD)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>background position cals</title>
+    <style>
+        p{color:rgba(252,186,3,0.8);
+            font-size:40px;
+            letter-spacing: 10px;
+            line-height: 1.5;
+            font-weight: 500;
+            text-align:right; /*對齊right, left, center*/
+            font-family: '標楷體', sans-serif; /*字型*/
+           }
+
+        div{
+            background: red;
+            width: 200px;
+            height: 200px;
+            display: block;
+            /* margin: 20px; */
+            position: relative;
+            top: 400px;
+            left: 400px;
+        }
+
+        /*全部設定字體*/
+        body { font-family: verdana, Times New Roman, 新細明體, 微軟正黑體; }
+
+    </style>
+</head>
+
+<body>
+    <!--後面的class會覆蓋前面-->
+    <p>天氣</p>
+    <p>Hello</p>
+    <div>ddddddiiiiiiivvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv</div>
+    <div><span style="font-family: verdana, Times New Roman, 新細明體, 微軟正黑體;">設定字型</span></div>
+</body>
+</html>

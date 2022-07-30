@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--畫面大小適用不同裝置(RWD)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--icon套用 https://fontawesome.com/search?s=solid%2Cbrands-->
+    <script src="https://kit.fontawesome.com/4f5d6b09cb.js" crossorigin="anonymous"></script>
+    <!--以下2個套用bootstrap模板from"https://getbootstrap.com/docs/5.2/getting-started/download/"-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!--自己資料夾模板-->
+    <link href="css/style.css" rel="stylesheet">
+    <!--google font提供中文字形 https://fonts.google.com/-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <!--google font提供英文字形-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Edu+VIC+WA+NT+Beginner&family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <!--網頁標題-->
+    <title>Monster Hunter World (pratice)</title>
+</head>
+
+<body>
+  <header>
+    <!--div class="container"-->
+    <!--bootstrap navbar from "https://getbootstrap.com/docs/5.2/components/navbar/"-->
+    <nav class="navbar navbar-expand-lg bg-secondary"> <!--bg後可修改顏色-->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.monsterhunter.com/world-iceborne/hk/"> <!--logo圖片超連結-->
+          <img src="pictures/MHW_logo.png"> <!--logo圖片-->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">新手介紹</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="hunter_interface.html">介面介紹</a></li>
+                <li><a class="dropdown-item" href="#">載入中...3</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">載入中...4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                其餘
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://forum.gamer.com.tw/C.php?bsn=5786&snA=151736">魔物名稱翻譯對照</a></li>
+                <li><a class="dropdown-item" href="#">載入中...3</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">載入中...4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">聯絡我們</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--/div-->
+  </header>
+
+  <section id="intro">
+    <div class="container-fluid bg-secondary p-5">
+      <div class="container">
+        <div class="col-md-12"> <!--col-md-(1~12)可決定寬度要多大-->
+          <h1 class="display-4" align="center">介面說明</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+        <h1>探索/戰鬥介面</h1>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img src="pictures/interface.png"> <!--待修改-->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>平常進入戰鬥地圖時會出現</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p align="left"><strong style="color: red;">a. 血量/體力條:</strong> 綠色是血量條，被打光會死；黃色是體力條，跑步或是特殊動作會消耗，使用到底會原地喘氣，很危險。</p>
+              <p align="left"><strong style="color: red;">b. 斬味:</strong> 近戰武器的鋒利度，會影響武器物理和屬性攻擊倍率和能不能砍進魔物的肉，有些魔物比較硬，需要較高的鋒利度，否會彈刀。紫>白>藍>綠>黃>橙>紅，簡單來說保持在綠色以上就行，當然保持更高的鋒利度，會有更高的輸出。</p>
+              <p align="left"><strong style="color: red;">c. 特殊道具:</strong> 可以知道特殊道具的狀態可否使用，或是剩餘冷卻時間。</p>
+              <p align="left"><strong style="color: red;">d. 道具列表:</strong> 回血藥、磨刀石、強化藥都在這裡使用，出門前記得把道具放進背包，才能在這找到並使用。</p>
+              <p align="left"><strong style="color: red;">e. 操作提示:</strong> 會根據當前可使用的招式或是派生招式給出提示，不過最好在實戰前就把握好能使用的招式最好。</p>
+              <p align="left"><strong style="color: red;">f. 訓練場提示:</strong> 訓練場才有的連招列表 (剛接觸新武器練習用)</p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="container"><br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>裝備介面</h1>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img src="pictures/weapon-4.png"> <!--待改-->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p align="left"><strong style="color: red;">1. 武器欄位:</strong>大劍/太刀/單手劍/雙劍/大鎚/狩獵笛/長槍/銃槍/斬擊斧/充能斧/操蟲棍/輕弩/重弩/弓</p>
+              <p align="left"><strong style="color: red;">2. 護石欄位:</strong>可選擇不同的技能護石製作出來搭配</p>
+              <p align="left"><strong style="color: red;">3和4. 特殊道具欄位:</strong>特殊功能的服裝和煙霧，戰鬥時很有用，有使用時間和冷卻時間。</p>
+              <p align="left"><strong style="color: red;">5. 頭部防具</strong></p>
+              <p align="left"><strong style="color: red;">6. 身體防具</strong></p>
+              <p align="left"><strong style="color: red;">7. 手部防具</strong></p>
+              <p align="left"><strong style="color: red;">8. 腰部防具</strong></p>
+              <p align="left"><strong style="color: red;">9. 腳部防具</strong></p>
+              <p align="left"><strong style="color: red;">10. 裝飾品(珠子):</strong> 搭配技能用，高級珠子要拚運氣刷。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <!--footer區塊-->
+  <footer>
+    <div class="container">
+      <div class='row'>
+        <div class='col-md-4 text-left'>
+          <a href="#">
+          <img src='pictures/MHW_logo.png' width='160px'></a>
+          <p>魔物獵人 世界<br>
+          Monster Hunter World</p>
+        </div>
+        <div class='col-md-4 text-left'>
+          <h4>連結</h4>
+          <ul>
+            <li><a href='index.html'>首頁</a></li>
+            <li><a href='all.html'>相關問題</a></li>
+          </ul>
+          <ul>
+            <li><a href='/text1.html'>常見問題</a></li>
+            <li><a href='contact.html'>聯絡我們</a></li>
+          </ul>
+        </div>
+        <div class='col-md-4 text-left '>
+          <h4>聯絡我們</h4>
+          <p><i class="fa-solid fa-phone"></i> xxxx-xxx-xxx</p>
+          <p><i class="fa-solid fa-envelope"></i><a href='#'> xxxxx@gmail.com </a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
